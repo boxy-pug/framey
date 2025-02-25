@@ -1,4 +1,4 @@
-# Framey
+# Framey 🖼️
 
 Framey is a command-line tool designed to add frames to your images. This project is in its early stages, and the final features and implementation details are still being developed.
 
@@ -8,18 +8,18 @@ Framey is a command-line tool designed to add frames to your images. This projec
 
 ## Planned Features
 
--  **Command-Line Interface**:
+### Command-Line Interface:
   - Use `argparse` or `click` for handling command-line arguments to specify input and output images.
 
--  **Image Processing**:
+### Image Processing:
   - Utilize the Pillow library for image manipulation.
   - Add customizable frames to JPEG images using predefined frame templates.
 
--  **Frame Customization**:
+### Frame Customization:
   - Allow users to choose from different frame styles and colors.
   - Enable scaling of frames to match image dimensions.
 
--  **Batch Processing**:
+### Batch Processing:
   - Support processing multiple images in a single command.
 
 ## Getting Started
