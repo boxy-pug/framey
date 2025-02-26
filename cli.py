@@ -30,5 +30,24 @@ def parse_arguments():
         type=float,
         help="Specify the thickness of the frame, in cm (accepts float, default is 2.0)",
     )
+    parser.add_argument(
+        "-pw",
+        "--pasp-width",
+        type=float,
+        help="Thickness of passepartout in cm, float. Gets calculated based on artwork size if not specified",
+    )
+    parser.add_argument(
+        "-bw",
+        "--background-width",
+        type=float,
+        default=2,
+        help="The width of background/wall visible behand the framed picture, cm float, default 2 cm",
+    )
+    parser.add_argument(
+        "-fc",
+        "--frame_color",
+        default="black",
+        help="Choose frame color, RGB, HEX, html color names. Default is black",
+    )
 
     return parser.parse_args()
