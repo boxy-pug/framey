@@ -11,7 +11,7 @@ def main():
     args = parse_arguments()
     log("Verbose mode enabled", args.verbose)
     image = load_image(args.source)
-    log(f"Loading image from ${args.source}", args.verbose)
+    log(f"Loading image {args.source}", args.verbose)
     create_framed_image(image, args)
 
 

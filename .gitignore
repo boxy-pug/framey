@@ -5,3 +5,4 @@ venv/
 
 # Ignore Python bytecode
 __pycache__/
+samples/
