@@ -42,10 +42,9 @@ To clone the repository and run Framey, follow these steps:
    Open your terminal and run the following command:
 
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/framey.git
+   git clone https://github.com/boxy-pug/framey.git
    ```
 
-   Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username.
 
 2. **Navigate to the Project Directory**:  
    Change to the project directory:
