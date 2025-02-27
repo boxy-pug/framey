@@ -1,6 +1,6 @@
 # Framey 🖼️
 
-Framey is a command-line interface (CLI) tool designed for framing images. This project was developed as a personal assignment for Boot.dev, aiming to enhance skills in Python programming and CLI tool development.
+Framey is a command-line interface (CLI) tool designed for framing images. It allows users to easily create framed versions of their images by specifying various parameters such as frame width, background color, and output size. This project was developed as a personal assignment for Boot.dev.
 
 ## Usage
 
@@ -43,28 +43,41 @@ To clone the repository and run Framey, follow these steps:
    ```bash
    git clone https://github.com/YOUR_GITHUB_USERNAME/framey.git
    ```
-Replace YOUR_GITHUB_USERNAME with your actual GitHub username.
-	2.	Navigate to the Project Directory:
+   Replace YOUR_GITHUB_USERNAME with your actual GitHub username.
+
+2.	Navigate to the Project Directory:
+
 Change to the project directory:
+
 ```bash
 cd framey
 ```
+
 	3.	Set Up a Virtual Environment (Optional):
+
 It is recommended to use a virtual environment to manage dependencies. You can create one using:
+
 ```bash
 python -m venv ven
 ```
+
 Activate the virtual environment:
+
 	▪	On Windows:
+
 ```bash
 venv\Scripts\activate
 ```
+
 	▪	On macOS/Linux:
+
 ```bash
 source venv/bin/activate
 ```
+
 	4.	Install Required Packages:
 Install the package and dependencies using:
+
 ```bash
 pip install .
 ```
